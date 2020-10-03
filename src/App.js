@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
       <Nav />
       <Switch>
